@@ -42,22 +42,22 @@
 			{#if loading}
 				<div class="flex h-64 items-center justify-center">
 					<figure
-						class="bg-gradient-conic to-primary-500 aspect-square size-10 animate-spin rounded-full from-transparent"
+						class="aspect-square size-10 animate-spin rounded-full bg-gradient-conic from-transparent to-primary-500"
 					></figure>
 				</div>
 			{:else}
 				<div class="m-12">
 					<Tabs.Panel bind:group value="grid">
-						<GridGallery />
+						<!-- <GridGallery /> -->
 					</Tabs.Panel>
 					<Tabs.Panel bind:group value="quad">
-						<QuadGallery />
+						<!-- <QuadGallery /> -->
 					</Tabs.Panel>
 					<Tabs.Panel bind:group value="masonry">
-						<MasonryGallery />
+						<!-- <MasonryGallery /> -->
 					</Tabs.Panel>
 					<Tabs.Panel bind:group value="feat">
-						<FeaturedGallery />
+						<!-- <FeaturedGallery /> -->
 					</Tabs.Panel>
 				</div>
 			{/if}
